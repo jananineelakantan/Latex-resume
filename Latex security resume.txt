@@ -25,7 +25,9 @@
 
 
 \namesection{Janani}{Neelakantan}{
-\href{mailto:jananineelakantan@gmail.com}{jananineelakantan@gmail.com} | (617)794-3864 | LinkedIn: \href{https://www.linkedin.com/in/janani-neelakantan-600777125}{\custombold{jananineelakantan}}
+\href{mailto:jananineelakantan@gmail.com}{jananineelakantan@gmail.com} | Cell: (617)794-3864 \\
+ LinkedIn: \href{https://www.linkedin.com/in/jananineelakantan}{\custombold{https://www.linkedin.com/in/jananineelakantan}} | Github:
+\href{https://github.com/jananineelakantan}{\custombold{https://github.com/jananineelakantan}}
 }
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
