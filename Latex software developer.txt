@@ -1,0 +1,176 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Janani Neelakantan - One Page Two Column Resume
+% LaTeX Template
+% Version 1 (08/29/2016)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% Adapting Deedy's Latex resume.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Janani}{Neelakantan}{
+\href{mailto:jananineelakantan@gmail.com}{jananineelakantan@gmail.com} | (617)794-3864 | LinkedIn: \href{https://www.linkedin.com/in/janani-neelakantan-600777125}{\custombold{jananineelakantan}}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{University of Illinois \\at Chicago}
+\descript{Masters in Computer Science}
+\location{Dec 2016 | Cum. GPA: 3.39/4}
+\sectionsep
+
+\subsection{SASTRA University, India}
+\descript{Bachelors in Information and \\Communication Technology}
+\location{May 2012 | Cum. GPA: 9.47/10}
+Dean's list(All semesters)
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+C \textbullet{}   C++ \textbullet{} Java \textbullet{} C\#/ASP.NET \textbullet{} Python\\
+\subsection{Database}
+Oracle \textbullet{} MySQL 
+\subsection{Version Control}
+Git \textbullet{} Tortoise SVN
+\subsection{Automation tools}
+JMeter \textbullet{} Telerik Test Studio 
+\subsection{Operating Systems}
+Windows \textbullet{} Linux \textbullet{} Xen
+\subsection{Cloud Platform}
+Microsoft Azure
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+Computer Algorithms \\
+Building Secure Computer Systems \\
+Security and Privacy in Networked \& Distributed Systems \\
+Advanced and Persistent Threats \\
+Secure OS Design and Implementation \\
+Cloud Computing \\
+Distributed Systems \\
+Introduction to Data Science
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LEADERSHIP
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Leadership} 
+
+\subsection{Society of Women \\Engineers UIC}
+\descript{Grad Ambassador 2016}
+\sectionsep
+
+\section{Awards}
+\descript{Best Outgoing Student(Kamakoti Award)}
+\location{Graduating batch of 2012}
+
+\descript{International Cadet Exchange Programme, Singapore}
+\location{Dec 2011}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SUMMARY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Summary}
+\vspace{\topsep}
+\begin{tightemize}\item Motivated software engineer offering two years of experience in object-oriented design, development and relational database systems.\item Strong work ethic, collaborative, passionate about solving problems and learning new technology.\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     WORK EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Work Experience}
+
+\runsubsection{University of Illinois at Chicago}
+\descript{| Graduate Assistant(Web developer) }
+\location{Feb 2015 - present | Chicago, Illinois}
+\begin{tightemize}\item Design and develop web applications for UIC research departments in ASP.NET using C\# with Oracle SQL database.\item Optimized 'search-record' operation in SharePoint by 20\% using Caml query.\item Introduced CustomImpersonation security feature in code. \item Responsible for software quality assurance, technical support and business process analysis.\end{tightemize}
+\sectionsep
+
+\runsubsection{Tata Consultancy Services Ltd}
+\descript{| Assistant Systems Engineer }
+\location{July 2012 - Aug 2013 | Hyderabad, India}
+\begin{tightemize}
+\item Worked with the CLI (Command Line Interface) team to develop and support COM (Common Operation and Maintenance), a C++/UNIX application to manage the configuration, security, fault tolerance and performance of network elements of the client operated cellular network.\item Proposed new requirements and improvements (which were later incorporated) to enhance the functionality of CLI commands. \item Recognized for having completed a thorough study of COM testing framework.\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Academic Projects}
+\runsubsection{Taint tracking based Attack Detection in web applications}
+\descript{| Jan - April 2016}
+Developed a vanilla implementation for logging web app level events using taint tracking of PHP applications for effective attack detection
+\sectionsep
+
+\runsubsection{Twitter Sentiment Classification using Apache Spark}
+\descript{| April 2016}
+Compared machine learning techniques such as Naive Bayes, Logistic Regression and Decision Tree to identify the best classifier for sentiment analysis of tweets. Implemented in Python3 using Apache Spark libraries
+\sectionsep
+
+\runsubsection{Microsoft Azure cloud provisioning}
+\descript{| Sept - Dec 2015}
+Experimented with hosting an open source JSP web app on MS Azure cloud using various deployment strategies, performed load testing using JMeter and developed optimal cloud provisioning and de-provisioning strategies
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Publications}
+\runsubsection{Enhanced ATM Security with PII using OTPIP algorithm}
+\location{Research Journal of Applied Sciences, Engineering and Technology}
+\href{http://maxwellsci.com/print/rjaset/v4-5406-5409.pdf}{http://maxwellsci.com/print/rjaset/v4-5406-5409.pdf} | Dec 2012
+\sectionsep
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
